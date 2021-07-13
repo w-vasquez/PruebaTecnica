@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PruebaTecnica</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    @*<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>*@
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+    @*<script src="~/js/index.js"></script>*@
+</head>
+<body>
+
+    <partial name="_LoginPartial" />
+
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @*<footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2021 - PruebaTecnica - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>*@
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    @*<script async
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAAYElExXcXft2Wp6h5dj3DZ55qQkszbk&callback=initMap">
+    </script>*@
+
+</body>
+</html>
