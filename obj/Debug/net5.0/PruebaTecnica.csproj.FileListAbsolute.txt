@@ -163,3 +163,7 @@ C:\testing\PruebaTecnica\obj\Debug\net5.0\PruebaTecnica.dll
 C:\testing\PruebaTecnica\obj\Debug\net5.0\ref\PruebaTecnica.dll
 C:\testing\PruebaTecnica\obj\Debug\net5.0\PruebaTecnica.pdb
 C:\testing\PruebaTecnica\obj\Debug\net5.0\PruebaTecnica.genruntimeconfig.cache
+C:\testing\PruebaTecnica\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\Email.cshtml.g.cs
+C:\testing\PruebaTecnica\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
+C:\testing\PruebaTecnica\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\testing\PruebaTecnica\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs

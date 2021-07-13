@@ -26,13 +26,7 @@
 
 <script>
     
-
-
-
     function initMap() {
-
-        var intLat;
-        var intLng;
 
         fetch("https://ipinfo.io/json?token=5b1c9ba962808b").then(
             (response) => response.json()
@@ -41,8 +35,8 @@
                 let coor = jsonResponse.loc.split(',');
                 console.log(coor[0], coor[1]);
                 var options = {
-                    zoom: 8,
-                    center: { lat: 13.517550, lng: -88.383840 }
+                    zoom: 13,
+                    center: { lat: 13.69, lng: -89.19 }
                 }
                 var map = new google.maps.Map(document.getElementById("map"), options);
 
