@@ -24,23 +24,12 @@
         </main>
     </div>
 
-    @*<footer class="border-top footer text-muted">
-            <div class="container">
-                &copy; 2021 - PruebaTecnica - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-            </div>
-        </footer>*@
-
-
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 
-    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-    @*<script async
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAAYElExXcXft2Wp6h5dj3DZ55qQkszbk&callback=initMap">
-    </script>*@
 
 </body>
 </html>
